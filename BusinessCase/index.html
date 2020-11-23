@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Les Anciennes</title>
+
+
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <script type="text/javascript" src="js/monscript.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <div>
+      <nav class="c-navbar">
+        <img src="Images/lesAnciennes-d.png" alt="logo les anciennes" />
+        <h1>La référence des annonces de collections</h1>
+        <div class="d-flex flex-column">
+          <a href="#"><img src="Images/account.jpg" alt="logo compte pro" />
+            <h3 class="d-flex justify-content-center">Compte pro</h3>
+          </a>
+        </div>
+      </nav>
+      <nav id=buttons>
+        <ul class="d-flex justify-content-around">
+          <li><a href="#">Accueil</a></li>
+          <li><a href="#">Produits</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <article id="morgan" class="d-flex flex-column">
+    <div id="drowdop" class="w-75 ">
+      <div class="row justify-content-around pt-4">
+        <div class="col-3">
+          <select name="brand" id="dep" class="rounded-lg pt-2 pb-2 pl-4 pr-4">
+            <option> -- Marques --</option>
+            <option> Alfa-Roméo</option>
+            <option> Alpine </option>
+            <option> Bentley</option>
+            <option> BMW</option>
+            <option> Citroën </option>
+            <option> Delorean</option>
+            <option> Emilio</option>
+            <option> Alpine </option>
+          </select>
+        </div>
+        <div class="col-3">
+          <select name="model" id="dep" class="rounded-lg pt-2 pb-2 pl-4 pr-4">
+
+            <option> -- Modèles --</option>
+            <option> Alfa-Roméo</option>
+            <option> Alpine </option>
+            <option> Bentley</option>
+            <option> BMW</option>
+            <option> Citroën </option>
+            <option> Delorean</option>
+            <option> Emilio</option>
+            <option> Alpine </option>
+          </select>
+        </div>
+        <div class="col-3">
+          <select name="brand" id="dep" class="rounded-lg pt-2 pb-2 pl-4 pr-4">
+
+            <option> Carburant</option>
+            <option> Alfa-Roméo</option>
+            <option> Alpine </option>
+            <option> Bentley</option>
+            <option> BMW</option>
+            <option> Citroën </option>
+            <option> Delorean</option>
+            <option> Emilio</option>
+            <option> Alpine </option>
+          </select>
+        </div>
+      </div>
+
+      <div id="middle" class="row justify-content-around pt-5">
+        <div class="col-3">
+          <p> Kilométrage </p>
+          <input type="range" id="input-left" min="0" max="100" value="25">
+          <input type="range" id="input-right" min="0" max="100" value="75">
+
+          <div class="slider">
+            <div class="track"></div>
+            <div class="range"></div>
+            <div class="thumb left"></div>
+            <div class="thumb right"></div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <p>Année</p>
+          <input type="range" id="input-left" min="0" max="100" value="25">
+          <input type="range" id="input-right" min="0" max="100" value="75">
+
+          <div class="slider">
+            <div class="track"></div>
+            <div class="range"></div>
+            <div class="thumb left"></div>
+            <div class="thumb right"></div>
+          </div>
+        </div>
+
+        <div class="mutli-range-slider col-3">
+          <p>Prix</p>
+          <input type="range" id="input-left" min="0" max="100" value="25">
+          <input type="range" id="input-right" min="0" max="100" value="75">
+
+          <div class="slider">
+            <div class="track"></div>
+            <div class="range"></div>
+            <div class="thumb left"></div>
+            <div class="thumb right"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <h2 style="text-align:center" class="pd-3 "><span class="title_light">Les</span> <span>dernières
+        annonces</span></h2>
+
+  </article>
+
+  <!-- fin article#morgan -->
+
+
+  <!-- Cards -->
+
+  <div class="container">
+    <ul class="gallery filter">
+      <li class="border">
+
+        <a href="#">
+          <div id="zoomImage">
+            <h3>Peugeot 301</h3>
+            <img src="./Images/jaguar-mk2-beacham-1963-j5592-037.jpg" alt="">
+            <p>Kilometrage : 30 000 km <br>
+              annEe : 1973 <br>
+              version : outdoor long road</p>
+            <p class="price">€ 12 400 </p>
+        </a>
+  </div>
+  </li>
+
+  <li class="border">
+    <a href="#">
+      <h3>Phantom Airgun</h3>
+      <img src="./Images/triumph-spitfire-1500us-1976-t3171-037.jpg" alt="">
+      <p>Kilometrage : 30 000 km <br>
+        annEe : 1973 <br>
+        version : outdoor long road</p>
+      <p class="price">€ 27 400 </p>
+    </a>
+  </li>
+
+  <li class="border">
+    <a href="#">
+      <h3>Tacot Odlsmobil</h3>
+      <img src="./Images/packard-one-twenty-1941-p2548-037_1.jpg" alt="">
+      <p>Kilometrage : 30 000 km <br>
+        annEe : 1973 <br>
+        version : outdoor long road</p>
+      <p class="price">€ 17 900 </p>
+    </a>
+  </li>
+
+  <li class="border">
+    <a href="#">
+      <h3>Austin Newbury</h3>
+      <img src="./Images/panhard-dyna-1954-p1579-037.jpg" alt="">
+      <p>Kilometrage : 30 000 km <br>
+        annEe : 1973 <br>
+        version : outdoor long road</p>
+      <p class="price">€ 8 900 </p>
+    </a>
+  </li>
+
+  <li class="border">
+    <a href="#">
+      <h3>Chrysler Imperial</h3>
+      <img src="./Images/pontiac-firebird-1967-p3580-037.jpg" alt="">
+      <p>Kilometrage : 30 000 km <br>
+        annEe : 1973 <br>
+        version : outdoor long road</p>
+      <p class="price">€ 34 750 </p>
+    </a>
+  </li>
+
+  <li class="border">
+    <a href="#">
+      <h3>Chrysler Imperial</h3>
+      <img src="./Images/mg-mga-1622-mkii-1962-m6112-037.jpg" alt="">
+      <p>Kilometrage : 30 000 km <br>
+        annEe : 1973 <br>
+        version : outdoor long road</p>
+      <p class="price">€ 34 750 </p>
+    </a>
+  </li>
+
+
+  <li class="wide border">
+    <a href="#">
+      <h3>Panhard Panoramique</h3>
+      <img src="./Images/Venturi.jpg" alt="">
+      <p>Kilometrage : 30 000 km <br>
+        annEe : 1973 <br>
+        version : outdoor long road</p>
+      <p class="price">€ 43 000 </p>
+    </a>
+  </li>
+  </ul>
+  </div>
+
+  <nav aria-label="Page navigation example" class="mt-5">
+    <ul class="pagination pagination-lg d-flex justify-content-center">
+      <li class="page-item disabled">
+        <a class="page-link" href="#" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+          <span class="sr-only">Previous</span>
+        </a>
+      </li>
+      <li class="page-item active"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+          <span class="sr-only">Next</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+
+
+
+  <footer>
+    <div class="container">
+      <div id="left" class="row pt-5 pb-5">
+        <div class="col-3">
+          <p><strong> Les Anciennes </strong></p>
+          <p>50, Montée des Mures</p>
+          <p>Cidex 63</p>
+          <p>07100 ROIFFIEUX</p>
+          <p>+32 487 856 123</p>
+          <p>sales : + 32 487 563 128</p>
+          <p>lesanciennes@compagny.com</p>
+          <p>Inscrit au registre national </p>
+        </div>
+        <div class="col-3">
+          <p><strong> > Liens utiles </strong></p>
+          <p>Voitures Europe</p>
+          <p>Voitures Américaines</p>
+          <p>Voitures Anglaises</p>
+          <p>Voitures Françaises</p>
+          <p>Voitures Allemandes</p>
+          <p>Voitures Italiennes</p>
+          <p>Voitures Suédoises</p>
+          <p>Voitures Autres</p>
+          <p>Assurance voiture de collection</p>
+        </div>
+        <div class="col-3" id="dealership">
+          <a href="#">
+            <img src="./Images/neonbrand-c7g65YhFD3A-unsplash.jpg" class="mb-3" alt="" />
+          </a>
+          <p>Points de vente par région</p>
+          <p>Partie motos anciennes</p>
+          <p>Extensions de garanties</p>
+        </div>
+        <div class="col-3" id="right">
+          <p><strong> OUVERT </strong></p>
+          <p>Lundi au samedi</p>
+          <p>09:00 - 17:00</p>
+          <p></p>
+          <p class="mt-4">OUVERT EXTRA</p>
+          <p>Le premier</p>
+          <p>dimanche du mois</p>
+          <p>10:00 - 17:00</p>
+          <a href="#">
+            <img src="./Images/unnamed.png" class="mb-3" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
